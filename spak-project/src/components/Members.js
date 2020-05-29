@@ -1,21 +1,32 @@
-import React from 'react'
+import React, { Component } from 'react'
+import MemberList from './MemberList'
 
-export default function Members(props) {
-    console.log(props)
-    return (
-        <div>
-  
-      {props.members.map(member => {
-        
-         return ( <div>
-             <p> {member.first_name} </p>  
+export class Members extends Component {
+   
+    state = {
+        members: []
+    }
 
-             <p> {member.initiation_year}</p>
-             </div>
-             )
+
+    componentDidMount(){
+        fetch("http://localhost:4000/users")
+            .then(r => r.json())
+            .then(response => {
+                this.setState({
+                    members: response
+                })
             })
-     }
-
-        </div>
-    )
+    }
+    render() {
+        console.log(this.state.members)
+        return (
+            <div>
+                <h1 className = "center-align">Members</h1>
+                <MemberList members={this.state.members}/>
+            </div>
+        )
+    }
 }
+
+export default Members
+
