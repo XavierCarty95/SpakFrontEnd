@@ -28,7 +28,7 @@ export class Member extends Component {
         // </div>
         // </div>
 
-  <div className = "container" style={{marginLeft: '600px'}}>
+  <div className = "container" style={{marginLeft: '720px'}}>
   <div class="col s12 m6 center-align" style={{width: '300px'}}>
     <div class="card center-align">
       <div class="card-image">

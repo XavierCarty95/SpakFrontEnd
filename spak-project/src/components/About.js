@@ -15,6 +15,7 @@ Realizing that they had no part in the social life of the university and drawn t
          <img style={{height: "300px" , width: "300px" ,  marginTop:"100px" , marginRight: "30px"}} src='/fall17.jpg' alt="founders"/> 
          <img style={{height: "300px" , width: "300px" ,  marginTop:"100px", marginRight: "30px"}} src='/chapmeeting.jpg' alt="founders"/> 
          <img style={{height: "300px" , width: "300px" , marginTop:"100px", marginRight: "30px"}} src='/eternity.jpg' alt="founders"/> 
+         <div style={{marginTop: "20px"}}> <h4> Contact Us: kappaalphapsi1911@gmail.com </h4> </div>
         </div>
     )
 }
