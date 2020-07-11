@@ -29,7 +29,7 @@ export class App extends Component {
 
      if(localStorage.token){
        
-      fetch("http://localhost:4000/users/stay_logged_in", {
+      fetch("https://secure-crag-72369.herokuapp.com/stay_logged_in", {
            headers : {
              "Authorization": localStorage.token
            }
@@ -58,7 +58,7 @@ export class App extends Component {
 
   handleRegisterSubmit = (userInfo) =>{
   
-    fetch("http://localhost:4000/users", {
+    fetch("https://secure-crag-72369.herokuapp.com/users", {
       method: "POST",
       headers: {
         "content-type": "application/json"
@@ -83,7 +83,7 @@ export class App extends Component {
 
   handleLoginSubmit = (userInfo) => {
     console.log("Login form has been submitted")
-    fetch("http://localhost:4000/users/login", {
+    fetch("https://secure-crag-72369.herokuapp.com/users/login", {
       method: "POST",
       headers: {
         "content-type": "application/json"

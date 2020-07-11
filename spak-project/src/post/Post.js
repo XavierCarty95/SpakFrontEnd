@@ -6,7 +6,7 @@ export class Post extends Component {
   
 
   handleComments = (comment) => {
-        fetch("http://localhost:4000/comments", {
+        fetch("https://secure-crag-72369.herokuapp.com/comments", {
          method: "POST",
          headers: {
            "content-type": "application/json"

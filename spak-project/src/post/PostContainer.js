@@ -12,7 +12,7 @@ export class PostContainer extends Component {
         }
 
     componentDidMount(){
-       fetch('http://localhost:4000/agenda')
+       fetch('https://secure-crag-72369.herokuapp.com/agenda')
        .then(r => r.json())
        .then(response => {
           this.setState({
@@ -29,7 +29,7 @@ export class PostContainer extends Component {
     handleAgendaForm = (formInfo) => {
 
         let copyOfList = {...formInfo}
-         fetch("http://localhost:4000/agenda" , {
+         fetch("https://secure-crag-72369.herokuapp.com/agenda" , {
     
             method: "POST",
           headers: {
@@ -49,7 +49,7 @@ export class PostContainer extends Component {
     }
     updateLike = (id, likes) => {
 
-      fetch(`http://localhost:4000/agenda/${id}`, {
+      fetch(`https://secure-crag-72369.herokuapp.com/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "Application/json"
@@ -72,7 +72,7 @@ export class PostContainer extends Component {
 
     deleteForm = (id) => {
 
-      fetch(`http://localhost:4000/agenda/${id}`, {
+      fetch(`https://secure-crag-72369.herokuapp.com/${id}`, {
         method: "DELETE"
      }).then(r => r.json())
     .then((deletedList) => {
