@@ -167,6 +167,7 @@ renderPost = (routerProps) => {
         <Route exact path="/login" render={this.renderForm} />
         <Route exact path="/register" render={this.renderForm} />
         <Route exact path="/agenda" render={this.renderPost} />
+        <Route exact path="/SpakFrontEnd/" render={this.handleHome}/>
      </Switch>
        
       </div>
