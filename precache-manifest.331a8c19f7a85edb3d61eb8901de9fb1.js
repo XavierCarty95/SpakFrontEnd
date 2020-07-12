@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e64e246fcc301d0beb509026806fbd1",
+    "revision": "14c2ab1b398548d1cb4cfe8e7ec2b74e",
     "url": "/SpakFrontEnd/index.html"
   },
   {
-    "revision": "130fe90e57c0bc3699fe",
+    "revision": "221982a0be408db2e714",
     "url": "/SpakFrontEnd/static/css/main.990380e2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SpakFrontEnd/static/js/2.2ec9f008.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "130fe90e57c0bc3699fe",
-    "url": "/SpakFrontEnd/static/js/main.dae79f38.chunk.js"
+    "revision": "221982a0be408db2e714",
+    "url": "/SpakFrontEnd/static/js/main.526d4377.chunk.js"
   },
   {
     "revision": "80279cf5b7f60abe9d68",
