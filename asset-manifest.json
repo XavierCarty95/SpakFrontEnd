@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/SpakFrontEnd/static/css/main.990380e2.chunk.css",
-    "main.js": "/SpakFrontEnd/static/js/main.5bfaf1bc.chunk.js",
-    "main.js.map": "/SpakFrontEnd/static/js/main.5bfaf1bc.chunk.js.map",
+    "main.js": "/SpakFrontEnd/static/js/main.dae79f38.chunk.js",
+    "main.js.map": "/SpakFrontEnd/static/js/main.dae79f38.chunk.js.map",
     "runtime-main.js": "/SpakFrontEnd/static/js/runtime-main.d477eca0.js",
     "runtime-main.js.map": "/SpakFrontEnd/static/js/runtime-main.d477eca0.js.map",
     "static/js/2.2ec9f008.chunk.js": "/SpakFrontEnd/static/js/2.2ec9f008.chunk.js",
     "static/js/2.2ec9f008.chunk.js.map": "/SpakFrontEnd/static/js/2.2ec9f008.chunk.js.map",
     "index.html": "/SpakFrontEnd/index.html",
-    "precache-manifest.f990c0d0e229adc53d4877c475cf2d73.js": "/SpakFrontEnd/precache-manifest.f990c0d0e229adc53d4877c475cf2d73.js",
+    "precache-manifest.332d63d4b723dc56e7bddc31f3856d99.js": "/SpakFrontEnd/precache-manifest.332d63d4b723dc56e7bddc31f3856d99.js",
     "service-worker.js": "/SpakFrontEnd/service-worker.js",
     "static/css/main.990380e2.chunk.css.map": "/SpakFrontEnd/static/css/main.990380e2.chunk.css.map",
     "static/js/2.2ec9f008.chunk.js.LICENSE.txt": "/SpakFrontEnd/static/js/2.2ec9f008.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d477eca0.js",
     "static/js/2.2ec9f008.chunk.js",
     "static/css/main.990380e2.chunk.css",
-    "static/js/main.5bfaf1bc.chunk.js"
+    "static/js/main.dae79f38.chunk.js"
   ]
 }
