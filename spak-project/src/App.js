@@ -167,7 +167,7 @@ renderPost = (routerProps) => {
         <Route  path="/login" render={this.renderForm} />
         <Route  path="/register" render={this.renderForm} />
         <Route  path="/agenda" render={this.renderPost} />
-        <Route  path="/SpakFrontEnd/" render={this.handleHome}/>
+        {/* <Route  path="/SpakFrontEnd/" render={this.handleHome}/> */}
      </Switch>
        
       </div>
