@@ -160,13 +160,14 @@ renderPost = (routerProps) => {
       <div className="contain" style={{height: '100%'}}>
         <Navbar token={this.state.token} user={this.state.user} logout={this.logout}/>
         <Switch> 
-        <Route exact path="/" render={this.handleHome}/>
+        
         <Route  path="/about" component={About}/>
         <Route  path="/history" component={History}/>
         <Route path="/members" render={this.handleMembers}/>
         <Route path="/login" render={this.renderForm} />
         <Route  path="/register" render={this.renderForm} />
         <Route  path="/agenda" render={this.renderPost} />
+        <Route exact path="/" render={this.handleHome}/>
         <Route  path="/SpakFrontEnd" render={this.handleHome}/>
      </Switch>
        

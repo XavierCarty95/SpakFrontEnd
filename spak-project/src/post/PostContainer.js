@@ -72,7 +72,7 @@ export class PostContainer extends Component {
 
     deleteForm = (id) => {
 
-      fetch(`https://secure-crag-72369.herokuapp.com/${id}`, {
+      fetch(`https://secure-crag-72369.herokuapp.com/agenda/${id}`, {
         method: "DELETE"
      }).then(r => r.json())
     .then((deletedList) => {
