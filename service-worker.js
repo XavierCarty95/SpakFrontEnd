@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SpakFrontEnd/precache-manifest.79a402971d67f6ff93210e9df1eaee5a.js"
+  "/SpakFrontEnd/precache-manifest.284ac9530ea0513d3a9ce44d7e302b5b.js"
 );
 
 self.addEventListener('message', (event) => {
