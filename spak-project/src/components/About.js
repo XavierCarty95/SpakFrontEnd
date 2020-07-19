@@ -12,9 +12,9 @@ Most of them were working their way through school.  The number of places where 
 Realizing that they had no part in the social life of the university and drawn together by common interests, they decided that a Greek-letter fraternity would do much to fill the missing link in their college existence.
            </p>
 
-         <img style={{height: "300px" , width: "300px" ,  marginTop:"100px" , marginRight: "30px"}} src='/fall17.jpg' alt="founders"/> 
+         {/* <img style={{height: "300px" , width: "300px" ,  marginTop:"100px" , marginRight: "30px"}} src='/fall17.jpg' alt="founders"/> 
          <img style={{height: "300px" , width: "300px" ,  marginTop:"100px", marginRight: "30px"}} src='/chapmeeting.jpg' alt="founders"/> 
-         <img style={{height: "300px" , width: "300px" , marginTop:"100px", marginRight: "30px"}} src='/eternity.jpg' alt="founders"/> 
+         <img style={{height: "300px" , width: "300px" , marginTop:"100px", marginRight: "30px"}} src='/eternity.jpg' alt="founders"/>  */}
          <div style={{marginTop: "20px"}}> <h4> Contact Us: kappaalphapsi1911@gmail.com </h4> </div>
         </div>
     )

@@ -8,8 +8,13 @@ export default function MemberList(props) {
        return (<div key={member.id}><Member members={member} /></div>)
     })
     return (
-        <div>
-            {listOfMembers}
+        
+            <div className = "container" style = {{height: "100%"}}>
+            <div className="ui three column grid container">
+                 {listOfMembers}
+            </div>
+      
+           
         </div>
     )
 }

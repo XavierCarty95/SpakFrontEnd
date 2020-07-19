@@ -49,7 +49,7 @@ export class PostContainer extends Component {
     }
     updateLike = (id, likes) => {
 
-      fetch(`https://secure-crag-72369.herokuapp.com/${id}`, {
+      fetch(`https://secure-crag-72369.herokuapp.com/users/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "Application/json"

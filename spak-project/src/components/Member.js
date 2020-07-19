@@ -28,14 +28,13 @@ export class Member extends Component {
         // </div>
         // </div>
 
-  <div className = "container" style={{marginLeft: '720px'}}>
-  <div class="col s12 m6 center-align" style={{width: '300px'}}>
-    <div class="card center-align">
-      <div class="card-image">
+        <div className="column">
+        <div className="ui fluid card">
+          <div className="image">
           
         <img src={image} style={{height: '300px'}}/>
       </div>
-      <div class="card-content">
+      <div class="content">
         <p>This is Brother {first_name} he crossed in {initiation_year} he serves as the {position} if you want to contact him you can email him at {email}
 
         
@@ -43,7 +42,7 @@ export class Member extends Component {
       </div>
     </div>
   </div>
-  </div>
+  
   
 
      
