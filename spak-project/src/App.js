@@ -119,7 +119,7 @@ export class App extends Component {
 
 handleHome = (routerProps) => {
   
-  if(routerProps.location.pathname ==="/" || routerProps.location.pathname === "/SpakFrontEnd/"){
+  if(routerProps.location.pathname ==="/"){
     return <Home  users={this.state.user} />
   }
 
