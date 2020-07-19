@@ -9,7 +9,7 @@ export class Members extends Component {
 
 
     componentDidMount(){
-        fetch("http://localhost:4000/users")
+        fetch("https://secure-crag-72369.herokuapp.com/users")
             .then(r => r.json())
             .then(response => {
                 this.setState({

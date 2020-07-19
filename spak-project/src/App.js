@@ -29,7 +29,7 @@ export class App extends Component {
 
      if(localStorage.token){
        
-      fetch("https://secure-crag-72369.herokuapp.com/stay_logged_in", {
+      fetch("https://secure-crag-72369.herokuapp.com/users/stay_logged_in", {
            headers : {
              "Authorization": localStorage.token
            }
@@ -119,7 +119,7 @@ export class App extends Component {
 
 handleHome = (routerProps) => {
   
-  if(routerProps.location.pathname ==="/"){
+  if(routerProps.location.pathname === "/" || routerProps.location.pathname === "/SpakFrontEnd/"){
     return <Home  users={this.state.user} />
   }
 
@@ -161,12 +161,13 @@ renderPost = (routerProps) => {
         <Navbar token={this.state.token} user={this.state.user} logout={this.logout}/>
         <Switch> 
         <Route exact path="/" render={this.handleHome}/>
-        <Route exact path="/about" component={About}/>
-        <Route exact path="/history" component={History}/>
-        <Route exact path="/members" render={this.handleMembers}/>
-        <Route exact path="/login" render={this.renderForm} />
-        <Route exact path="/register" render={this.renderForm} />
-        <Route exact path="/agenda" render={this.renderPost} />
+        <Route  path="/about" component={About}/>
+        <Route  path="/history" component={History}/>
+        <Route path="/members" render={this.handleMembers}/>
+        <Route path="/login" render={this.renderForm} />
+        <Route  path="/register" render={this.renderForm} />
+        <Route  path="/agenda" render={this.renderPost} />
+        <Route  path="/SpakFrontEnd" render={this.handleHome}/>
      </Switch>
        
       </div>
@@ -174,6 +175,6 @@ renderPost = (routerProps) => {
   }
 }
 
-let MagicalComponent = withRouter(App)
 
-export default MagicalComponent
+
+export default withRouter(App)
